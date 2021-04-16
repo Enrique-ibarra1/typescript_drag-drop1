@@ -1,8 +1,8 @@
 //default import
-import Component from './base-component.js';
-import * as Validation from '../utilities/validation.js';
-import {autobind} from '../decorators/autobind.js';
-import {projectState} from '../state/project-state.js';
+import Component from './base-component';
+import * as Validation from '../utilities/validation';
+import {autobind} from '../decorators/autobind';
+import {projectState} from '../state/project-state';
 //project input class
 //redering the html elements using js/tsc
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement>{
